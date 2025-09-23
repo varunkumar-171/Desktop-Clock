@@ -5412,6 +5412,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 92.71) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061273c5-7ff4-4762-b2ac-f0fd6c5954ce")
+	)
+	(wire
+		(pts
 			(xy 193.04 87.63) (xy 208.28 87.63)
 		)
 		(stroke
@@ -6919,6 +6929,16 @@
 			(type default)
 		)
 		(uuid "ff072cee-3931-4ce2-9016-48ebbe69f718")
+	)
+	(label "BUZZER"
+		(at 240.03 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "045e6ece-ad6a-4932-aa6f-dd56d95a85f8")
 	)
 	(label "LCD_RST"
 		(at 200.66 85.09 180)

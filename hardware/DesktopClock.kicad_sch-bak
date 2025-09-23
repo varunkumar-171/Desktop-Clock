@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a599039e-30dc-4499-8089-7dc444d0aec1")
+	(paper "A3")
+	(title_block
+		(title "Desktop Clock")
+		(date "2025-09-22")
+		(rev "v1.0")
+		(company "Varun Kumar")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

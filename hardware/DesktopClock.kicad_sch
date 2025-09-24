@@ -783,6 +783,369 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CSS-0575A-SMT:CSS-0575A-SMT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -3.8227 8.9196 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CSS-0575A-SMT"
+				(at -3.8192 -11.4575 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CSS-0575A-SMT:CUI_CSS-0575A-SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "5 mm, 3 V, 75 dB, Surface Mount _SMT_, Magnetic Audio Transducer Buzzer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CSS-0575A-SMT-TR/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSS-0575A-SMT-TR/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CSS-0575A-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "5 mm, 3 V, 76 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CSS-0575A-SMT_0_0"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.9133 1.2755 0)
+					(effects
+						(font
+							(size 1.7858 1.7858)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.9052 -3.1752 0)
+					(effects
+						(font
+							(size 1.7781 1.7781)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2102,167 +2465,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4798,6 +5000,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC847"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5283,6 +5690,12 @@
 		(uuid "9287b263-1ce6-46c0-b68b-d5cafe329b05")
 	)
 	(junction
+		(at 349.25 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a32863bd-0c7f-41ff-91c2-de38d2a64514")
+	)
+	(junction
 		(at 367.03 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5293,6 +5706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac85a065-76e0-41c5-9878-d3ccf1bbfc29")
+	)
+	(junction
+		(at 349.25 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d20f80-f991-4929-8ca6-7e99b84cf72e")
 	)
 	(junction
 		(at 223.52 30.48)
@@ -5331,8 +5750,24 @@
 		(uuid "f6741b26-a795-4df4-8c33-af0b1db6fdc2")
 	)
 	(no_connect
+		(at 208.28 69.85)
+		(uuid "0e065199-294e-4b2b-9669-c8fe16b9510d")
+	)
+	(no_connect
+		(at 238.76 80.01)
+		(uuid "13557c3e-4e1f-4879-9d02-c60aac86ce10")
+	)
+	(no_connect
 		(at 48.26 58.42)
 		(uuid "2005df26-d469-493b-849f-adc5ae43c86b")
+	)
+	(no_connect
+		(at 208.28 74.93)
+		(uuid "22fd2eec-5dad-485c-9241-4af1cd49f2fa")
+	)
+	(no_connect
+		(at 238.76 90.17)
+		(uuid "23c0beb9-ea85-4f0b-8ac6-6a56e647642e")
 	)
 	(no_connect
 		(at 349.25 175.26)
@@ -5343,16 +5778,40 @@
 		(uuid "3b89f78f-5311-4260-9882-f25587b34b55")
 	)
 	(no_connect
+		(at 208.28 59.69)
+		(uuid "4798299a-b493-4e1a-9673-582b185d539b")
+	)
+	(no_connect
+		(at 238.76 57.15)
+		(uuid "492347bd-5729-4ea5-8031-ec858095ff2d")
+	)
+	(no_connect
 		(at 238.76 74.93)
 		(uuid "5e666076-9f55-4dec-a0c2-4d6a8f3db6da")
+	)
+	(no_connect
+		(at 208.28 67.31)
+		(uuid "6dd3ce1a-4d0f-4ab2-90f6-15fd2ea41d78")
 	)
 	(no_connect
 		(at 318.77 177.8)
 		(uuid "7d3870ba-4f27-4c1e-a80c-72c781ae722e")
 	)
 	(no_connect
+		(at 238.76 87.63)
+		(uuid "8a7044e0-e397-42c1-b6e2-add0b3cd853a")
+	)
+	(no_connect
 		(at 318.77 195.58)
 		(uuid "9239d64b-c27f-4570-a773-b204da6194e2")
+	)
+	(no_connect
+		(at 208.28 82.55)
+		(uuid "a3d10b54-8892-4062-9cbc-381175d8b042")
+	)
+	(no_connect
+		(at 208.28 97.79)
+		(uuid "b78a5041-fcf8-49b3-ad98-a347df07f39e")
 	)
 	(no_connect
 		(at 318.77 175.26)
@@ -5367,8 +5826,28 @@
 		(uuid "c4bb8ae5-aaa3-485f-bbff-0d954c0e7f8a")
 	)
 	(no_connect
+		(at 238.76 95.25)
+		(uuid "d53a90ac-2493-4a6e-a38b-2452a810ca4f")
+	)
+	(no_connect
+		(at 238.76 59.69)
+		(uuid "dfed01f0-22b1-42fd-ab01-82035f8360ef")
+	)
+	(no_connect
+		(at 238.76 77.47)
+		(uuid "e0f0824f-51d1-4553-8619-3aff3ae14a2d")
+	)
+	(no_connect
+		(at 208.28 72.39)
+		(uuid "eece9dbf-78e8-4f5d-ba6b-7bfdde50d846")
+	)
+	(no_connect
 		(at 238.76 69.85)
 		(uuid "f0be9677-bd9f-4ab7-af17-ccae287252a5")
+	)
+	(no_connect
+		(at 208.28 62.23)
+		(uuid "f1cb15ca-9e42-4a7d-9208-44f22105ca22")
 	)
 	(wire
 		(pts
@@ -5479,6 +5958,16 @@
 			(type default)
 		)
 		(uuid "0a23fbdc-5539-4547-91c2-2d0e070dc183")
+	)
+	(wire
+		(pts
+			(xy 336.55 125.73) (xy 341.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df01618-94fc-4f4f-98eb-aa26b8bd4e01")
 	)
 	(wire
 		(pts
@@ -5632,16 +6121,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 120.65) (xy 345.44 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b3ae878-0ed5-4604-8266-86abd9c363f5")
-	)
-	(wire
-		(pts
 			(xy 209.55 36.83) (xy 209.55 38.1)
 		)
 		(stroke
@@ -5709,6 +6188,26 @@
 			(type default)
 		)
 		(uuid "36edd98f-5b8e-43ba-96ce-c90f8a34678f")
+	)
+	(wire
+		(pts
+			(xy 339.09 118.11) (xy 349.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ff2224-21a9-4684-923c-d1d23c0fedce")
+	)
+	(wire
+		(pts
+			(xy 321.31 125.73) (xy 331.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a3dff9-9e3c-4326-b219-40d7432c9bdc")
 	)
 	(wire
 		(pts
@@ -5870,6 +6369,16 @@
 		)
 		(uuid "4fa4c808-6196-4fe4-b90d-b06b6ec2e992")
 	)
+	(polyline
+		(pts
+			(xy 293.37 140.97) (xy 407.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff25244-4ba8-40dd-b0d3-a1204876e40f")
+	)
 	(wire
 		(pts
 			(xy 238.76 54.61) (xy 245.11 54.61)
@@ -5952,16 +6461,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 115.57) (xy 345.44 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9b706c-dafb-4624-b18c-3de61ea27784")
-	)
-	(wire
-		(pts
 			(xy 63.5 30.48) (xy 69.85 30.48)
 		)
 		(stroke
@@ -6032,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 116.84) (xy 349.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fca08a-8e87-4722-a20e-66413b530010")
+	)
+	(wire
+		(pts
 			(xy 384.81 41.91) (xy 384.81 43.18)
 		)
 		(stroke
@@ -6069,6 +6578,16 @@
 			(type default)
 		)
 		(uuid "6e76ef9f-bc60-43d5-a33f-1d8d99ec69c4")
+	)
+	(wire
+		(pts
+			(xy 349.25 105.41) (xy 349.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbe67da-ec00-4d1a-9ac4-5210ed4c6f29")
 	)
 	(wire
 		(pts
@@ -6232,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 130.81) (xy 349.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbdb632-e164-4b81-b740-6ae8efa3ad35")
+	)
+	(wire
+		(pts
 			(xy 201.93 30.48) (xy 209.55 30.48)
 		)
 		(stroke
@@ -6312,6 +6841,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 118.11) (xy 349.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99831e66-9eac-4cad-91ca-d508813676a0")
+	)
+	(wire
+		(pts
 			(xy 349.25 203.2) (xy 359.41 203.2)
 		)
 		(stroke
@@ -6339,6 +6878,16 @@
 			(type default)
 		)
 		(uuid "9de9b7dc-e63d-4684-a0ee-f059c75b54fa")
+	)
+	(wire
+		(pts
+			(xy 339.09 109.22) (xy 339.09 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f463936-6de4-4025-9f26-b3834411d4bf")
 	)
 	(wire
 		(pts
@@ -6382,6 +6931,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 116.84) (xy 339.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a384eeb1-614d-48d2-9bb0-06b5cd3fff19")
+	)
+	(wire
+		(pts
 			(xy 186.69 184.15) (xy 198.12 184.15)
 		)
 		(stroke
@@ -6399,16 +6958,6 @@
 			(type default)
 		)
 		(uuid "a919d51b-0c94-42c4-abae-72de9327e770")
-	)
-	(polyline
-		(pts
-			(xy 293.37 137.16) (xy 407.67 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9306281-7078-4e24-87b5-e100b9e0fb3b")
 	)
 	(wire
 		(pts
@@ -6479,6 +7028,16 @@
 			(type default)
 		)
 		(uuid "b310d741-a7c1-4bab-b7e3-62f47c8aebd4")
+	)
+	(wire
+		(pts
+			(xy 339.09 105.41) (xy 349.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b389dd66-87b8-48a0-adaa-fc49e5024236")
 	)
 	(wire
 		(pts
@@ -6669,6 +7228,16 @@
 			(type default)
 		)
 		(uuid "cd0791e4-4a90-459f-9e7b-6c622ce9ffbd")
+	)
+	(wire
+		(pts
+			(xy 349.25 104.14) (xy 349.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7d655b-6e83-4f02-93aa-e58d1505257f")
 	)
 	(wire
 		(pts
@@ -7089,7 +7658,7 @@
 		(uuid "6fd9e489-da16-43e2-a5aa-eafd3057f853")
 	)
 	(label "BUZZER"
-		(at 332.74 115.57 0)
+		(at 321.31 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7655,7 +8224,7 @@
 		(at 29.21 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7678,7 +8247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 29.21 170.18 0)
 			(effects
 				(font
@@ -7742,7 +8311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.16 34.29 0)
 			(effects
 				(font
@@ -7853,6 +8422,197 @@
 		)
 	)
 	(symbol
+		(lib_id "CSS-0575A-SMT:CSS-0575A-SMT")
+		(at 349.25 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fed4a16-973e-465c-9f2c-9909d6ccd048")
+		(property "Reference" "LS1"
+			(at 353.06 110.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSS-0575A-SMT"
+			(at 353.06 112.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CSS-0575A-SMT:CUI_CSS-0575A-SMT"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "5 mm, 3 V, 75 dB, Surface Mount _SMT_, Magnetic Audio Transducer Buzzer"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CSS-0575A-SMT-TR/Same+Sky/view-part/?ref=eda"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSS-0575A-SMT-TR/Same+Sky/view-part/?ref=snap"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CSS-0575A-SMT-TR"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5 mm, 3 V, 76 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer"
+			(at 349.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa0ba2e9-6a81-45da-8aa1-ae33bee9a810")
+		)
+		(pin "2"
+			(uuid "8f6b4520-3276-455c-9dac-7af27b5be812")
+		)
+		(instances
+			(project ""
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 367.03 57.15 0)
 		(unit 1)
@@ -7946,7 +8706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 44.45 0)
 			(effects
 				(font
@@ -8279,7 +9039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -8316,6 +9076,81 @@
 			(project "DesktopClock"
 				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 346.71 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dbedd6b-6c19-4fac-93c5-c692fc719400")
+		(property "Reference" "Q1"
+			(at 351.79 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 351.79 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 351.79 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 346.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 346.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2521f679-5266-40b0-913b-d083d1844f37")
+		)
+		(pin "2"
+			(uuid "976afdc0-6a36-4b39-b222-e41d7389e923")
+		)
+		(pin "3"
+			(uuid "a8dc506f-5692-477e-9520-4d7454c7d80c")
+		)
+		(instances
+			(project ""
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8574,7 +9409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 340.36 227.33 0)
 			(effects
 				(font
@@ -8643,7 +9478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 321.31 76.2 0)
 			(effects
 				(font
@@ -8713,7 +9548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 107.95 0)
 			(effects
 				(font
@@ -8822,6 +9657,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 349.25 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b59b2c7-dc9f-4e0c-8400-a379c07d0fe7")
+		(property "Reference" "#PWR040"
+			(at 349.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 349.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 349.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58493f7c-1b72-4b5a-a9f3-af522a35b26a")
+		)
+		(instances
+			(project "DesktopClock"
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 367.03 184.15 180)
 		(unit 1)
@@ -8848,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 367.03 184.15 0)
 			(effects
 				(font
@@ -8983,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -9468,7 +10369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 384.81 35.56 0)
 			(effects
 				(font
@@ -9878,7 +10779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -9925,7 +10826,7 @@
 		(at 29.21 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9948,7 +10849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 29.21 147.32 0)
 			(effects
 				(font
@@ -10012,7 +10913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 201.93 34.29 0)
 			(effects
 				(font
@@ -10056,6 +10957,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 334.01 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7edba640-d2cb-4566-8de8-145684af2858")
+		(property "Reference" "R10"
+			(at 334.01 120.65 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "180"
+			(at 334.01 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 334.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 334.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed684536-c7e6-4b20-8801-292d00cb438a")
+		)
+		(pin "2"
+			(uuid "af75ef3b-abbb-436e-b49b-f7c241bd221f")
+		)
+		(instances
+			(project "DesktopClock"
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 201.93 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10081,7 +11050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -10151,7 +11120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.64 109.22 0)
 			(effects
 				(font
@@ -10221,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 336.55 76.2 0)
 			(effects
 				(font
@@ -10422,7 +11391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11014_1x14-1MP_P0.5mm_Horizontal"
 			(at 203.2 166.37 0)
 			(effects
 				(font
@@ -10592,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -10726,7 +11695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 325.12 227.33 0)
 			(effects
 				(font
@@ -10884,7 +11853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 209.55 34.29 0)
 			(effects
 				(font
@@ -10927,76 +11896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 347.98 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "985f77d5-e4ab-4fa9-8bdb-505858e4e820")
-		(property "Reference" "BZ1"
-			(at 351.79 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 351.79 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.345 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.345 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 347.98 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81111f26-ec08-4684-9eab-17d4d66e3382")
-		)
-		(pin "1"
-			(uuid "08b01ad6-92bc-4852-a896-07fe9458abdf")
-		)
-		(instances
-			(project ""
-				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 33.02 45.72 0)
 		(unit 1)
@@ -11022,7 +11921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 36.83 45.72 0)
 			(effects
 				(font
@@ -11114,7 +12013,7 @@
 		(at 29.21 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11137,7 +12036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 29.21 162.56 0)
 			(effects
 				(font
@@ -11402,7 +12301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 384.81 45.72 0)
 			(effects
 				(font
@@ -11603,7 +12502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 100.33 0)
 			(effects
 				(font
@@ -11706,6 +12605,75 @@
 			(project "DesktopClock"
 				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 339.09 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b86678e5-8e85-4dc3-8452-523f89170e0d")
+		(property "Reference" "D5"
+			(at 333.502 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 326.644 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 334.645 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 339.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 339.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00d02861-e786-461e-8b5d-57fa11e8600c")
+		)
+		(pin "1"
+			(uuid "8c91633a-36d8-490e-a3e5-48c651fca280")
+		)
+		(instances
+			(project ""
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11847,7 +12815,7 @@
 		(at 29.21 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11870,7 +12838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 29.21 154.94 0)
 			(effects
 				(font
@@ -12237,7 +13205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 120.65 270)
+		(at 349.25 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12246,7 +13214,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9642be6-51c4-4949-af45-28389c49d42b")
 		(property "Reference" "#PWR031"
-			(at 328.93 120.65 0)
+			(at 349.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12255,16 +13223,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.47 120.6499 90)
+			(at 351.79 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 120.65 0)
+			(at 349.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +13241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 120.65 0)
+			(at 349.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +13250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 120.65 0)
+			(at 349.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +13428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -12529,7 +13497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 359.41 184.15 0)
 			(effects
 				(font
@@ -12929,7 +13897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 88.9 107.95 90)
 			(effects
 				(font

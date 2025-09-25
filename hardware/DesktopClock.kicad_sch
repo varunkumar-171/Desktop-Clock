@@ -4613,7 +4613,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM1117LD-3.3"
+		(symbol "Regulator_Linear:LM1117MP-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4625,7 +4625,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1117LD-3.3"
+			(property "Value" "LM1117MP-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4634,7 +4634,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4652,7 +4652,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, WSON-8"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4670,7 +4670,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON?8*"
+			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4679,7 +4679,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117LD-3.3_0_1"
+			(symbol "LM1117MP-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -4692,7 +4692,7 @@
 					)
 				)
 			)
-			(symbol "LM1117LD-3.3_1_1"
+			(symbol "LM1117MP-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -4703,45 +4703,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4767,25 +4729,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -4796,64 +4739,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5766,12 +5652,12 @@
 		(uuid "22fd2eec-5dad-485c-9241-4af1cd49f2fa")
 	)
 	(no_connect
-		(at 238.76 90.17)
-		(uuid "23c0beb9-ea85-4f0b-8ac6-6a56e647642e")
-	)
-	(no_connect
 		(at 349.25 175.26)
 		(uuid "24c86fc8-ec8f-4493-939b-88bd400a237a")
+	)
+	(no_connect
+		(at 198.12 181.61)
+		(uuid "36edcaeb-532a-4169-a35d-dc51f7c2c503")
 	)
 	(no_connect
 		(at 48.26 60.96)
@@ -5790,16 +5676,24 @@
 		(uuid "5e666076-9f55-4dec-a0c2-4d6a8f3db6da")
 	)
 	(no_connect
+		(at 198.12 176.53)
+		(uuid "67c8d0dd-1b6c-440e-a69a-5cc95cde741e")
+	)
+	(no_connect
 		(at 208.28 67.31)
 		(uuid "6dd3ce1a-4d0f-4ab2-90f6-15fd2ea41d78")
+	)
+	(no_connect
+		(at 198.12 179.07)
+		(uuid "7157caec-d58e-42cb-8892-67c799a5b0cd")
 	)
 	(no_connect
 		(at 318.77 177.8)
 		(uuid "7d3870ba-4f27-4c1e-a80c-72c781ae722e")
 	)
 	(no_connect
-		(at 238.76 87.63)
-		(uuid "8a7044e0-e397-42c1-b6e2-add0b3cd853a")
+		(at 198.12 173.99)
+		(uuid "8b4667b1-d202-4836-ab58-8f947de46e14")
 	)
 	(no_connect
 		(at 318.77 195.58)
@@ -5868,16 +5762,6 @@
 			(type default)
 		)
 		(uuid "02de57b9-ef8a-4a9a-ab9b-89f12a6d7a8a")
-	)
-	(wire
-		(pts
-			(xy 201.93 36.83) (xy 201.93 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a534a8-2f06-4b5f-b100-c490b9fdf36f")
 	)
 	(wire
 		(pts
@@ -6101,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 36.83) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2507b674-a1dc-4eb1-9e35-a63d7a36d047")
+	)
+	(wire
+		(pts
 			(xy 359.41 39.37) (xy 367.03 39.37)
 		)
 		(stroke
@@ -6118,6 +6012,16 @@
 			(type default)
 		)
 		(uuid "2a707d9e-e835-49f8-a9f3-746a64dc159f")
+	)
+	(wire
+		(pts
+			(xy 349.25 195.58) (xy 354.33 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef9651b-4a3a-4d24-8fe5-673186bd7bd5")
 	)
 	(wire
 		(pts
@@ -6481,6 +6385,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 90.17) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60971b5b-806d-483e-9e03-56d540d1e81c")
+	)
+	(wire
+		(pts
 			(xy 238.76 52.07) (xy 245.11 52.07)
 		)
 		(stroke
@@ -6518,6 +6432,16 @@
 			(type default)
 		)
 		(uuid "644dec3f-ae9b-4e2b-83bb-541af10a036f")
+	)
+	(wire
+		(pts
+			(xy 349.25 193.04) (xy 354.33 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64aacef6-763c-4a5d-a604-99373ad19d9d")
 	)
 	(wire
 		(pts
@@ -6601,7 +6525,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 46.99) (xy 367.03 46.99)
+			(xy 359.41 46.99) (xy 372.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7361,6 +7285,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 87.63) (xy 254 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9664096-b162-4f25-b221-48b4abc390bf")
+	)
+	(wire
+		(pts
 			(xy 186.69 161.29) (xy 198.12 161.29)
 		)
 		(stroke
@@ -7500,24 +7434,34 @@
 		(uuid "ff072cee-3931-4ce2-9016-48ebbe69f718")
 	)
 	(label "BUZZER"
-		(at 240.03 92.71 0)
+		(at 254 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "045e6ece-ad6a-4932-aa6f-dd56d95a85f8")
 	)
+	(label "INT1"
+		(at 254 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "084d0175-2394-482b-9715-59afcad6d5f3")
+	)
 	(label "LCD_RST"
-		(at 200.66 85.09 180)
+		(at 193.04 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0dab1b6c-c266-4822-bcca-5e0384a23757")
 	)
@@ -7556,62 +7500,62 @@
 		(uuid "40fbb60e-2a43-4ada-bc08-685324f4da2e")
 	)
 	(label "D-"
-		(at 55.88 43.18 0)
+		(at 58.42 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "43ff8926-4f6b-47d5-a81f-7a91a6ac495b")
 	)
 	(label "ESP_RST"
-		(at 151.13 39.37 0)
+		(at 158.75 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4aec4914-f637-48ea-9cb6-a872fd04d2c2")
 	)
 	(label "ESP_IO0"
-		(at 208.28 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ebf9e52-1c23-4b0f-b0bb-ee4600409ee2")
-	)
-	(label "D+"
-		(at 55.88 50.8 0)
+		(at 200.66 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "50e6b91a-24d8-42d1-9f97-b368bf526c41")
+		(uuid "4ebf9e52-1c23-4b0f-b0bb-ee4600409ee2")
 	)
-	(label "SDA_BME688"
-		(at 205.74 77.47 180)
+	(label "D+"
+		(at 58.42 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "660a6486-d474-4b8a-92a3-26ab10bce582")
+		(uuid "50e6b91a-24d8-42d1-9f97-b368bf526c41")
 	)
-	(label "SCL_BME688"
-		(at 205.74 80.01 180)
+	(label "SDA_BME688"
+		(at 193.04 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "660a6486-d474-4b8a-92a3-26ab10bce582")
+	)
+	(label "SCL_BME688"
+		(at 193.04 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "662f7edc-45a5-4ec4-98b4-423e100e91d0")
 	)
@@ -7626,34 +7570,34 @@
 		(uuid "66e25c77-1f5b-494e-99b6-7d8bc9f288e9")
 	)
 	(label "USB_D+"
-		(at 245.11 64.77 0)
+		(at 251.46 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6899cac8-6836-4802-8d70-3723824e4c02")
 	)
 	(label "USB_D-"
-		(at 88.9 50.8 0)
+		(at 95.25 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "69d8a4fd-4681-442e-8c45-0e733ca3bc31")
 	)
 	(label "LCD_RS"
-		(at 245.11 67.31 0)
+		(at 251.46 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6fd9e489-da16-43e2-a5aa-eafd3057f853")
 	)
@@ -7689,25 +7633,55 @@
 		)
 		(uuid "7832e598-6b13-43e0-8353-a2f7cf54826b")
 	)
-	(label "SCL_BMI270"
-		(at 317.5 182.88 180)
+	(label "INT1"
+		(at 354.33 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+		(uuid "7d94ce27-fcae-4de4-9107-cccbf1f899a1")
+	)
+	(label "INT2"
+		(at 254 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8023b1d3-f802-44c4-9412-08b338e89293")
+	)
+	(label "SCL_BMI270"
+		(at 306.07 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "8430cf43-3913-4a96-b829-fefe495c5790")
 	)
+	(label "INT2"
+		(at 354.33 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86e43458-268b-4030-904e-5dd067f976cb")
+	)
 	(label "LCD_CS"
-		(at 200.66 95.25 180)
+		(at 193.04 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8a009a80-b6c8-4677-9725-16eaa8037638")
 	)
@@ -7724,12 +7698,12 @@
 		(uuid "8a67c4f7-f38f-4f2c-9d4f-15d03f3e9cf4")
 	)
 	(label "USB_D-"
-		(at 245.11 62.23 0)
+		(at 251.46 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "966b8114-93fa-44b9-a668-bb5e72709487")
 	)
@@ -7746,44 +7720,44 @@
 		(uuid "96bd033a-ecf8-4722-8ef9-daa914dcf5c4")
 	)
 	(label "CC1"
-		(at 54.61 35.56 0)
+		(at 58.42 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f8e1a1f-d2d4-4783-8593-d9b9d49402c4")
 	)
 	(label "CC2"
-		(at 54.61 38.1 0)
+		(at 58.42 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a43fc641-e0de-46e4-abc2-b62229742267")
 	)
 	(label "LCD_MOSI"
-		(at 201.93 90.17 180)
+		(at 193.04 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a6be1d0d-afae-45a2-a5ff-28ab59d16c58")
 	)
 	(label "SDA_BMI270"
-		(at 317.5 185.42 180)
+		(at 306.07 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "aaff74f0-dfaf-406f-9249-36a25492cedb")
 	)
@@ -7808,22 +7782,22 @@
 		(uuid "bc4d8454-1e70-427a-846e-4c03ed919581")
 	)
 	(label "SCL_BMI270"
-		(at 240.03 85.09 0)
+		(at 254 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bc5af43d-ad74-4f0c-800e-b6b1385cb484")
 	)
 	(label "SDA_BMI270"
-		(at 240.03 82.55 0)
+		(at 254 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c1f5e7ea-79e3-4caf-823e-a42bd9002a5d")
 	)
@@ -7852,14 +7826,14 @@
 		(uuid "cbc5b320-a193-4c4a-972b-f91e4fb5f5e7")
 	)
 	(label "LCD_SCK"
-		(at 201.93 92.71 180)
+		(at 193.04 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cc7ec749-6601-4770-a1e4-a4aaf163a9dd")
 	)
@@ -7884,12 +7858,12 @@
 		(uuid "d4e4ddcc-65a3-4987-8a43-aadecc3478e9")
 	)
 	(label "ESP_IO0"
-		(at 140.97 67.31 0)
+		(at 148.59 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d802da8d-3d18-414d-b933-242fa724ce40")
 	)
@@ -7904,19 +7878,7 @@
 		(uuid "e36b6474-8916-4172-948b-c88dc45fa42a")
 	)
 	(label "LCD_MISO"
-		(at 201.93 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "e7752a64-d879-4cad-aa66-c215679ae176")
-	)
-	(label "SDCARD_CS"
-		(at 240.03 97.79 0)
+		(at 193.04 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7924,6 +7886,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+		(uuid "e7752a64-d879-4cad-aa66-c215679ae176")
+	)
+	(label "SDCARD_CS"
+		(at 254 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 		(uuid "e8a2947c-bc43-47ba-bd8a-d41aad580d93")
 	)
@@ -7948,22 +7922,22 @@
 		(uuid "ee9971cb-fd62-4baa-a358-efbd5a2e7b49")
 	)
 	(label "USB_D+"
-		(at 88.9 53.34 0)
+		(at 95.25 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f34e4442-7a2f-4883-82ae-7c0f3f45e1b8")
 	)
 	(label "SDA_BME688"
-		(at 360.68 46.99 0)
+		(at 372.11 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fe3cf147-274c-40c3-b2d8-1a6ab691f4d8")
 	)
@@ -11553,7 +11527,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "BOOT"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -11732,95 +11706,6 @@
 			(project "DesktopClock"
 				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117LD-3.3")
-		(at 57.15 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95080fc5-48e1-4968-bc51-9f1e719ebf99")
-		(property "Reference" "U3"
-			(at 57.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117LD-3.3"
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, WSON-8"
-			(at 57.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "e0111168-0103-4559-9505-48877ccfee45")
-		)
-		(pin "2"
-			(uuid "a33f62bd-20e7-423c-97ac-719f0f00a384")
-		)
-		(pin "1"
-			(uuid "cb4dd430-42e9-4749-9424-3326f26a29b6")
-		)
-		(pin "6"
-			(uuid "798b19cf-fae1-492d-a5d2-c8fb30149af1")
-		)
-		(pin "4"
-			(uuid "14db1d38-b655-433d-8ca1-97ca2d64710a")
-		)
-		(pin "3"
-			(uuid "1ed751cc-52c4-4d77-bee5-a40f6c73c648")
-		)
-		(pin "8"
-			(uuid "45f3aaa7-d499-4953-b20b-2274c913c244")
-		)
-		(pin "7"
-			(uuid "239f85f0-7703-4b48-9272-4260a1cf0ea6")
-		)
-		(pin "5"
-			(uuid "95715796-1fb2-48f9-b312-c15b929423a8")
-		)
-		(instances
-			(project ""
-				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13420,7 +13305,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "RST"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -13465,6 +13350,77 @@
 			(project ""
 				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117MP-3.3")
+		(at 57.15 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1273a39-0226-4738-ba3b-e925bb0464a2")
+		(property "Reference" "U3"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117MP-3.3"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6babea11-9df1-4015-9ea2-47f32b1df750")
+		)
+		(pin "3"
+			(uuid "f20571ab-368d-4a1c-8b33-8e8be05fb0ac")
+		)
+		(pin "2"
+			(uuid "e481cd9d-41c2-46b4-933d-fcac58e9a7f3")
+		)
+		(instances
+			(project ""
+				(path "/a599039e-30dc-4499-8089-7dc444d0aec1"
+					(reference "U3")
 					(unit 1)
 				)
 			)

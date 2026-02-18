@@ -1,9 +1,9 @@
 # Desktop-Clock
 
-![alt text](https://github.com/varunkumar-171/Desktop-Clock/blob/main/images/BoardBack.jpeg)
+| PCB - Back View | PCB - Front View |
+| :---: | :---: |
+| <img src="images/BoardBack.jpeg" width="400"> | <img src="images/BoardFront.jpeg" width="400"> |
 
-![alt text](https://github.com/varunkumar-171/Desktop-Clock/blob/main/images/BoardFront.jpeg)
-
-![alt text](https://github.com/varunkumar-171/Desktop-Clock/blob/main/images/ClockFront.jpeg)
-
-![alt text](https://github.com/varunkumar-171/Desktop-Clock/blob/main/images/ClockSide.jpeg)
+| Clock - Front View | Clock - Side View |
+| :---: | :---: |
+| <img src="images/ClockFront.jpeg" width="400"> | <img src="images/ClockSide.jpeg" width="400"> |
